@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.Persistence.EF\Framework.Persistence.EF.csproj" />
+    <ProjectReference Include="..\Sales.SalesManagement.Domain\Sales.SalesManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

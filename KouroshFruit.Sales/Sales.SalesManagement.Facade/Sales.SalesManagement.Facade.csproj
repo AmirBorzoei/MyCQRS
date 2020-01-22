@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.Core\Framework.Core.csproj" />
+    <ProjectReference Include="..\Sales.SalesManagement.Facade.Contract\Sales.SalesManagement.Facade.Contract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Store.StoreManagement.Domain.Contract">
+      <HintPath>..\..\KouroshFruit.Store\Store.StoreManagement.Domain.Contract\bin\Debug\netcoreapp3.1\Store.StoreManagement.Domain.Contract.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

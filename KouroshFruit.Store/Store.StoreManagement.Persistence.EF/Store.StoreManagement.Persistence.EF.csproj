@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.Core\Framework.Core.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework.Persistence.EF\Framework.Persistence.EF.csproj" />
+    <ProjectReference Include="..\Store.StoreManagement.Domain\Store.StoreManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
